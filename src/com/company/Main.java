@@ -22,7 +22,7 @@ public class Main {
         pers.add(new Person(5, "Bol", "vasilev", 54));
 
         System.out.printf("Original list of person:%n%n\tid\tNam2e\tsurname\t    age\n");
-        pers.forEach(Person::printPerson);
+        pers.forEach(Person::printPerson);//h
 
         Collections.sort(pers, Person.NameComparator);
         System.out.printf("Соритровка по имени:%n%n\tid\tNam2e\tsurname\t    age\n");
